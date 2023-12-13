@@ -1,0 +1,55 @@
+.blurr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+}
+
+.form2 {
+  width: 350px;
+  height: 655px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(57, 50, 61, 0.8);
+}
+.title {
+  color: white;
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+}
+
+.a {
+  margin: 0 0 32px;
+  color: #fbf4f4;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.string {
+  display: block;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+  border: 2px solid #a9a9a9;
+  border-radius: 4px;
+  background: #fff;
+  padding: 15px;
+}
+
+input[type="radio"] {
+  width: 17%;
+}
+.button:hover {
+  border: 1px solid #7f4e52;
+}

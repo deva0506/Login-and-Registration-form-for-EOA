@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(198, 160, 207);
+  border-radius: 30px;
+  font: 600 16px/18px "Open Sans", sans-serif;
+  margin-bottom: 50px;
+}
+.navbar li {
+  float: right;
+  list-style: none;
+  margin: 13px 20px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.navbar li a:hover {
+  color: rgb(232, 228, 235);
+}

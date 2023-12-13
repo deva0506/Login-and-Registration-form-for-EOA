@@ -1,0 +1,57 @@
+h1 {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: 2px solid #a9a9a9;
+  border-radius: 4px;
+  background: #fff;
+  padding: 15px;
+}
+.row {
+  font-family: Copperplate, Papyrus, fantasy;
+  padding: 4px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-image: url(../assets/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+  height: 100vh;
+}
+
+.form {
+  margin-left: 100px;
+  width: 350px;
+  height: 500px;
+  padding: 55px;
+  border-radius: 20px;
+  background: rgba(57, 50, 61, 0.8);
+}
+.form__input {
+  width: 100%;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #aaa;
+  margin: 1.5em auto;
+  transition: all 0.5s ease;
+}
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px;
+  font-size: medium;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #e6dede;
+  width: 60px;
+}
+.btn-1 {
+  margin-left: 5px;
+  margin-right: 15px;
+}
